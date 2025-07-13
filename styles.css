@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px;
+    padding: 15px 100px;
     height: 75px;
 }
 
@@ -53,8 +53,9 @@ a {
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 150px;
+    padding: 60px 150px;
     gap: 25px;
+    
 }
 
 h2 {
@@ -76,9 +77,13 @@ h2 {
 
 .third {
     background-color: #E5E7EB;
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 50px 150px;
 }
 
-button{
+.button1 {
     background-color: #3882F6;
     padding: 5px 20px;
     color: #E5E7EB;
@@ -106,13 +111,14 @@ h3 {
     padding: 20px;
     border-radius: 8px;
     height: 100px;
+    
 }
 
 .images {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 35px;
     padding: 0 200px;
 }
 
@@ -120,4 +126,59 @@ h3 {
     text-align: center;
     font-size: 15px;
     margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.signature {
+    font-size: 20px;
+    color: #1F2937;
+    text-align: right;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 70px 120px;
+    border-radius: 8px;
+    padding: 35px 100px;
+    display: flex;
+    max-width: 800px;
+}
+
+.text {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.text p {
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    font-weight: 600;
+    padding: 0 25px;
+}
+
+.image {
+    max-width: 180px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
 }
